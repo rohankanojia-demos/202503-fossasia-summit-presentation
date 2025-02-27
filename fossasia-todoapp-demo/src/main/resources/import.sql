@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS TODO (
+    id IDENTITY PRIMARY KEY,
+    title VARCHAR(255),
+    completed BOOLEAN
+);
